@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#f3e4cf"/>
+  <polygon points="56,50 72,50 64,66" fill="#fff" opacity=".55"/>
+  <!-- low battery icon -->
+  <g transform="translate(238 62) rotate(6)">
+    <rect width="64" height="30" rx="8" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+    <rect x="64" y="9" width="8" height="12" rx="3" fill="#1b1b1b"/>
+    <rect x="6" y="6" width="7" height="18" rx="3" fill="#e05b4b"/>
+    <text x="38" y="21" font-size="14" font-weight="900" fill="#e05b4b" text-anchor="middle" font-family="sans-serif">1%</text>
+  </g>
+  <!-- beanbag -->
+  <path d="M64 286 Q60 238 110 222 Q178 196 248 224 Q300 244 296 288 Q250 308 180 308 Q108 308 64 286 Z" fill="#e8a04c" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M110 262 Q140 252 178 254" fill="none" stroke="#1b1b1b" stroke-width="3.5" opacity=".4" stroke-linecap="round"/>
+  <!-- person slumped: torso half-sunk -->
+  <path d="M140 200 Q150 246 136 268 L226 268 Q216 240 222 198 Q182 210 140 200 Z" fill="#f0b46a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- arm holding phone -->
+  <path d="M222 210 Q252 214 258 236" fill="none" stroke="#1b1b1b" stroke-width="12" stroke-linecap="round"/>
+  <rect x="248" y="222" width="26" height="42" rx="6" transform="rotate(14 261 243)" fill="#3a3a42" stroke="#1b1b1b" stroke-width="4"/>
+  <rect x="255" y="230" width="12" height="4" rx="2" transform="rotate(14 261 243)" fill="#8fc1d4"/>
+  <!-- head drooped -->
+  <circle cx="172" cy="170" r="37" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4" transform="rotate(-8 172 170)"/>
+  <path d="M137 158 Q138 122 174 120 Q210 122 209 158 Q196 138 173 137 Q150 138 137 158 Z" fill="#b56a3a" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- droopy eyes + flat mouth -->
+  <path d="M152 172 Q158 176 164 172 M182 172 Q188 176 194 172" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M166 190 L182 190" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <!-- zzz -->
+  <text x="230" y="140" font-size="30" font-weight="900" fill="#1b1b1b" opacity=".5" font-family="sans-serif">z</text>
+  <text x="248" y="118" font-size="24" font-weight="900" fill="#1b1b1b" opacity=".35" font-family="sans-serif">z</text>
+</svg>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBTI 玩梗人格测试</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎭</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+
+    <!-- 首页 -->
+    <section id="view-home" class="view active">
+      <div class="home-deco" aria-hidden="true">
+        <span class="deco deco-1">?</span>
+        <span class="deco deco-2">!</span>
+        <span class="deco deco-3">？</span>
+      </div>
+      <p class="home-kicker">娱乐向 · 非专业心理诊断</p>
+      <h1 class="home-title">NBTI<span class="title-dot">.</span><br />玩梗人格测试</h1>
+      <p class="home-sub">用 3 到 5 分钟，看看你的精神状态像哪种人</p>
+      <p class="home-desc">20 道题 · 测出你的娱乐向人格标签<br />适合自嘲、分享和朋友互测</p>
+      <button class="btn btn-primary btn-big" id="btn-start">开始测试 →</button>
+      <button class="btn btn-ghost" id="btn-stats">查看角色数据统计</button>
+    </section>
+
+    <!-- 测试页 -->
+    <section id="view-quiz" class="view">
+      <div class="quiz-top">
+        <span class="progress-text" id="progress-text">第 1 / 20 题</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+      </div>
+      <div class="quiz-card" id="quiz-card">
+        <h2 class="quiz-text" id="quiz-text"></h2>
+        <div class="options" id="options"></div>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-ghost" id="btn-prev">← 上一题</button>
+        <button class="btn btn-primary" id="btn-submit">生成我的报告 ✦</button>
+      </div>
+    </section>
+
+    <!-- 结果页 -->
+    <section id="view-result" class="view">
+      <p class="result-kicker">你的 NBTI 人格标签是</p>
+      <div class="result-card" id="result-card">
+        <div class="result-img-wrap" id="result-img-wrap">
+          <img id="result-img" alt="角色形象" />
+        </div>
+        <h2 class="result-label" id="result-label"></h2>
+        <p class="result-name" id="result-name"></p>
+        <p class="result-tagline" id="result-tagline"></p>
+        <div class="chips" id="result-keywords"></div>
+        <p class="result-roast" id="result-roast"></p>
+        <div class="result-block">
+          <h3>你可能会这样</h3>
+          <ul id="result-behaviors"></ul>
+        </div>
+        <div class="result-block">
+          <h3>行动建议（不保证有用）</h3>
+          <ul id="result-advice"></ul>
+        </div>
+        <div class="result-block" id="dims-block">
+          <h3>你的维度得分</h3>
+          <div id="result-dims"></div>
+        </div>
+      </div>
+      <div class="result-actions">
+        <button class="btn btn-primary" id="btn-retry">重新测试 ↺</button>
+        <button class="btn btn-ghost" id="btn-stats2">看看大家的结果</button>
+      </div>
+      <p class="result-note">娱乐向测试结果，不构成任何心理诊断建议</p>
+    </section>
+
+    <!-- 统计页 -->
+    <section id="view-stats" class="view">
+      <h2 class="stats-title">角色数据统计</h2>
+      <p class="stats-total" id="stats-total"></p>
+      <div class="stats-list" id="stats-list"></div>
+      <button class="btn btn-ghost" id="btn-back">← 回首页</button>
+    </section>
+
+  </main>
+  <div id="toast" class="toast"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

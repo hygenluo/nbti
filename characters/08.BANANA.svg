@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#e8eccb"/>
+  <ellipse cx="180" cy="310" rx="92" ry="12" fill="#1b1b1b" opacity=".08"/>
+  <!-- floating question marks & scribbles -->
+  <text x="66" y="96" font-size="46" font-weight="900" fill="#8a9a3a" stroke="#1b1b1b" stroke-width="1.5" font-family="sans-serif" transform="rotate(-12 66 96)">?</text>
+  <text x="264" y="76" font-size="40" font-weight="900" fill="#8a9a3a" stroke="#1b1b1b" stroke-width="1.5" font-family="sans-serif" transform="rotate(14 264 76)">?</text>
+  <path d="M96 128 Q110 116 122 124 Q132 132 124 142 Q114 150 106 142 Q100 134 108 130" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <path d="M250 118 Q264 108 276 116 Q284 124 276 132 Q268 140 258 134" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <!-- little bananas floating -->
+  <path d="M286 160 Q300 170 296 186 Q288 172 272 168 Q280 160 286 160 Z" fill="#e5c04b" stroke="#1b1b1b" stroke-width="3.5" transform="rotate(20 286 172)"/>
+  <path d="M62 168 Q48 178 52 194 Q60 180 76 176 Q68 168 62 168 Z" fill="#e5c04b" stroke="#1b1b1b" stroke-width="3.5" transform="rotate(-18 62 180)"/>
+  <!-- legs, one foot on banana peel -->
+  <path d="M146 252 L140 298 L156 300 L162 254 Z" fill="#5a6644" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M190 252 L196 298 L212 296 L204 254 Z" fill="#5a6644" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M136 296 L160 298 L159 307 L135 305 Z" fill="#1b1b1b"/>
+  <!-- banana peel under right foot -->
+  <g transform="translate(196 300)">
+    <path d="M0 0 Q-8 -14 2 -18 Q4 -8 0 0 Z M6 2 Q14 -10 22 -6 Q14 2 6 2 Z M-2 4 Q-14 8 -20 2 Q-10 -2 -2 4 Z" fill="#e5c04b" stroke="#1b1b1b" stroke-width="3.5" stroke-linejoin="round"/>
+  </g>
+  <path d="M196 292 L216 290 L216 299 L196 301 Z" fill="#1b1b1b" transform="rotate(-8 206 296)"/>
+  <!-- torso -->
+  <path d="M136 184 L212 184 L220 256 L128 256 Z" fill="#b8c94e" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- arms bent up to head -->
+  <path d="M138 192 Q116 170 126 142" fill="none" stroke="#b8c94e" stroke-width="15" stroke-linecap="round"/>
+  <path d="M210 192 Q232 170 222 142" fill="none" stroke="#b8c94e" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="9" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3.5"/>
+  <circle cx="222" cy="140" r="9" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3.5"/>
+  <!-- head squished by hands -->
+  <circle cx="175" cy="140" r="37" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M139 132 Q137 94 175 92 Q213 94 211 132 Q199 110 175 109 Q153 110 139 132 Z" fill="#6a5a30" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- >_< eyes + wavy mouth -->
+  <path d="M152 134 L162 140 M162 134 L152 140 M188 134 L198 140 M198 134 L188 140" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M160 160 Q167 154 174 160 Q181 166 188 160" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <!-- frustration mark -->
+  <path d="M216 100 L226 90 M224 104 L234 96" stroke="#e05b4b" stroke-width="5" stroke-linecap="round"/>
+</svg>

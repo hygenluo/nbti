@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#d8e4ec"/>
+  <circle cx="300" cy="66" r="13" fill="none" stroke="#1b1b1b" stroke-width="3" opacity=".12"/>
+  <!-- sea waves -->
+  <path d="M20 318 L45 306 L70 318 L95 306 L120 318 L145 306 L170 318 L195 306 L220 318 L245 306 L270 318 L295 306 L320 318 L345 306" fill="none" stroke="#7fa8c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/>
+  <path d="M40 336 L65 326 L90 336 L115 326 L140 336 L165 326 L190 336 L215 326 L240 336 L265 326 L290 336 L315 326" fill="none" stroke="#7fa8c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+  <!-- island -->
+  <ellipse cx="185" cy="296" rx="105" ry="26" fill="#ecd9a8" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- palm tree -->
+  <path d="M282 288 Q270 240 262 208" fill="none" stroke="#8a6a4a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M262 208 Q236 196 214 210 M262 208 Q250 182 232 178 M262 208 Q282 182 302 184 M262 208 Q290 196 308 210" fill="none" stroke="#4e9b7a" stroke-width="8" stroke-linecap="round"/>
+  <!-- person standing -->
+  <path d="M164 246 L158 290 L172 291 L176 250 Z" fill="#5f7a8c" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M192 246 L196 290 L210 289 L204 250 Z" fill="#5f7a8c" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M156 288 L176 289 L175 298 L155 297 Z M194 287 L214 286 L214 295 L195 296 Z" fill="#1b1b1b"/>
+  <path d="M150 178 L206 178 L212 250 L146 250 Z" fill="#7fa8c9" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M152 200 L148 246 M204 200 L208 246" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="180" cy="140" r="36" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M144 132 Q142 92 180 90 Q218 92 216 132 Q206 108 180 106 Q154 108 144 132 Z" fill="#46586a" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- calm eyes, gazing aside -->
+  <path d="M160 140 L172 140 M192 140 L204 140" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M172 158 Q180 161 188 158" fill="none" stroke="#1b1b1b" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#d5e4dc"/>
+  <circle cx="60" cy="70" r="13" fill="none" stroke="#1b1b1b" stroke-width="3" opacity=".12"/>
+  <ellipse cx="176" cy="310" rx="90" ry="12" fill="#1b1b1b" opacity=".08"/>
+  <!-- floating kanban board -->
+  <g transform="rotate(3 268 130)">
+    <rect x="218" y="66" width="118" height="132" rx="14" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
+    <rect x="218" y="66" width="118" height="26" rx="14" fill="#4e9b7a" stroke="#1b1b1b" stroke-width="4"/>
+    <circle cx="234" cy="79" r="4" fill="#fff"/>
+    <circle cx="248" cy="79" r="4" fill="#fff" opacity=".7"/>
+    <!-- checklist rows -->
+    <rect x="232" y="104" width="14" height="14" rx="4" fill="#fff" stroke="#1b1b1b" stroke-width="3"/>
+    <path d="M235 111 L239 115 L244 108" fill="none" stroke="#4e9b7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M254 111 L316 111" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <rect x="232" y="130" width="14" height="14" rx="4" fill="#fff" stroke="#1b1b1b" stroke-width="3"/>
+    <path d="M235 137 L239 141 L244 134" fill="none" stroke="#4e9b7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M254 137 L316 137" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <rect x="232" y="156" width="14" height="14" rx="4" fill="#fff" stroke="#1b1b1b" stroke-width="3"/>
+    <path d="M254 163 L316 163" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round" opacity=".25"/>
+    <path d="M254 176 L298 176" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round" opacity=".15"/>
+  </g>
+  <!-- legs -->
+  <path d="M142 252 L138 300 L154 301 L158 254 Z" fill="#3a4a42" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M182 252 L186 301 L202 300 L196 254 Z" fill="#3a4a42" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M134 298 L158 299 L157 308 L133 307 Z M184 299 L208 298 L209 307 L185 308 Z" fill="#1b1b1b"/>
+  <!-- torso green hoodie -->
+  <path d="M126 178 L206 178 L214 256 L120 256 Z" fill="#4e9b7a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- enter-key badge -->
+  <rect x="156" y="192" width="26" height="20" rx="5" fill="#fff" stroke="#1b1b1b" stroke-width="3"/>
+  <path d="M176 197 L163 197 L163 203 L169 203 M163 200 L166 197 L166 203" fill="none" stroke="#1b1b1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-4 0)"/>
+  <!-- arms crossed -->
+  <path d="M124 222 Q166 214 206 224" fill="none" stroke="#3a4a42" stroke-width="16" stroke-linecap="round"/>
+  <path d="M124 222 Q166 214 206 224" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" stroke-dasharray="0" opacity=".9" transform="translate(0 -8)"/>
+  <path d="M206 232 Q166 240 126 230" fill="none" stroke="#3a4a42" stroke-width="16" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="166" cy="136" r="36" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M131 128 Q130 90 168 88 Q204 90 202 128 Q190 106 166 105 Q144 106 131 128 Z" fill="#2f3d37" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- serious straight brows + flat mouth -->
+  <path d="M146 128 L160 126 M176 126 L190 128" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="153" cy="136" r="3" fill="#1b1b1b"/><circle cx="183" cy="136" r="3" fill="#1b1b1b"/>
+  <path d="M158 154 L178 154" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+</svg>

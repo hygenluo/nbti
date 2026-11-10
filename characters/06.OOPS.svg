@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#f7e9c8"/>
+  <ellipse cx="180" cy="310" rx="92" ry="12" fill="#1b1b1b" opacity=".08"/>
+  <!-- motion arcs -->
+  <path d="M70 96 Q100 70 132 78 M250 60 Q282 56 300 80" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".3"/>
+  <!-- falling items: coffee cup -->
+  <g transform="rotate(-24 96 96)">
+    <path d="M80 84 L112 84 L108 118 L84 118 Z" fill="#fff" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M112 92 Q126 92 124 102 Q122 110 110 108" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+    <path d="M84 84 Q86 74 96 72 M96 84 Q98 76 104 74" fill="none" stroke="#1b1b1b" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  </g>
+  <path d="M120 128 Q126 140 118 148" fill="none" stroke="#b57a4a" stroke-width="4" stroke-linecap="round"/>
+  <!-- falling paper -->
+  <rect x="238" y="66" width="38" height="28" rx="4" transform="rotate(20 257 80)" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <path d="M244 76 L268 82 M243 83 L266 88" stroke="#1b1b1b" stroke-width="2" opacity=".4" transform="rotate(20 257 80)"/>
+  <!-- falling phone -->
+  <rect x="286" y="130" width="26" height="44" rx="6" transform="rotate(-32 299 152)" fill="#3a3a42" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- person arms up juggling -->
+  <path d="M142 250 L136 298 L152 300 L158 252 Z" fill="#6a5a3a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M186 250 L192 298 L208 296 L200 252 Z" fill="#6a5a3a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M132 296 L156 298 L155 307 L131 305 Z M190 296 L214 294 L215 303 L191 305 Z" fill="#1b1b1b"/>
+  <path d="M132 182 L208 182 L216 254 L124 254 Z" fill="#e5c04b" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- arms reaching up both sides -->
+  <path d="M134 190 Q104 172 96 140" fill="none" stroke="#e5c04b" stroke-width="15" stroke-linecap="round"/>
+  <path d="M134 190 Q104 172 96 140" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <path d="M206 190 Q242 176 258 150" fill="none" stroke="#e5c04b" stroke-width="15" stroke-linecap="round"/>
+  <path d="M206 190 Q242 176 258 150" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <circle cx="96" cy="138" r="9" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3.5"/>
+  <circle cx="260" cy="148" r="9" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3.5"/>
+  <!-- head -->
+  <circle cx="170" cy="140" r="37" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M134 132 Q132 94 170 92 Q208 94 206 132 Q194 110 170 109 Q148 110 134 132 Z" fill="#7a5230" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- wide eyes + stiff grin -->
+  <circle cx="156" cy="136" r="6" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/><circle cx="156" cy="137" r="2.5" fill="#1b1b1b"/>
+  <circle cx="186" cy="136" r="6" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/><circle cx="186" cy="137" r="2.5" fill="#1b1b1b"/>
+  <path d="M154 158 Q170 166 188 156" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M160 160 L160 164 M170 162 L170 166 M180 160 L180 164" stroke="#1b1b1b" stroke-width="2"/>
+  <!-- sweat drops -->
+  <path d="M124 118 Q118 130 124 134 Q130 130 124 118 Z" fill="#8fc1d4" stroke="#1b1b1b" stroke-width="3"/>
+  <path d="M216 106 Q210 118 216 122 Q222 118 216 106 Z" fill="#8fc1d4" stroke="#1b1b1b" stroke-width="3"/>
+</svg>

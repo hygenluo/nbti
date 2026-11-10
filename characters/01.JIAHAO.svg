@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#dcd4f0"/>
+  <polygon points="296,44 310,76 282,76" fill="#fff" opacity=".55"/>
+  <circle cx="58" cy="62" r="15" fill="none" stroke="#1b1b1b" stroke-width="3" opacity=".12"/>
+  <ellipse cx="180" cy="306" rx="92" ry="13" fill="#1b1b1b" opacity=".08"/>
+  <!-- legs walking -->
+  <path d="M164 244 L150 298 L166 302 L178 250 Z" fill="#33333a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M196 244 L212 296 L196 300 L186 250 Z" fill="#33333a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M146 296 L172 298 L170 308 L144 306 Z" fill="#1b1b1b"/>
+  <path d="M192 294 L218 292 L218 302 L192 304 Z" fill="#1b1b1b"/>
+  <!-- coat -->
+  <path d="M146 168 L214 168 L226 252 L134 252 Z" fill="#38383f" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M180 172 L180 248" stroke="#1b1b1b" stroke-width="3"/>
+  <path d="M146 208 L160 214 M214 208 L200 214" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M158 164 Q180 178 202 164" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- head -->
+  <circle cx="180" cy="118" r="38" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- beanie -->
+  <path d="M141 112 Q140 62 180 60 Q220 62 219 112 Z" fill="#232327" stroke="#1b1b1b" stroke-width="4"/>
+  <rect x="139" y="103" width="82" height="15" rx="7" fill="#141416" stroke="#1b1b1b" stroke-width="3"/>
+  <!-- sharp eyes -->
+  <path d="M159 124 L173 118" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M201 124 L187 118" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <!-- mask -->
+  <path d="M150 130 Q180 126 210 130 L207 151 Q180 160 153 151 Z" fill="#232327" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M152 134 L143 128 M208 134 L217 128" stroke="#1b1b1b" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

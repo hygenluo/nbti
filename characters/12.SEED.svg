@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#d2e8dc"/>
+  <!-- wind & rain -->
+  <path d="M40 88 L76 74 M30 122 L58 112 M300 70 L330 60" stroke="#8fc1d4" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <path d="M52 52 L62 44 M68 62 L78 54 M320 110 L330 102" stroke="#8fc1d4" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+  <path d="M96 60 Q140 44 176 56" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".3"/>
+  <!-- sun halo ring -->
+  <circle cx="180" cy="86" r="34" fill="none" stroke="#e5c04b" stroke-width="5" stroke-dasharray="14 9" opacity=".9"/>
+  <ellipse cx="180" cy="312" rx="92" ry="12" fill="#1b1b1b" opacity=".08"/>
+  <!-- legs -->
+  <path d="M158 252 L152 300 L168 302 L174 254 Z" fill="#3d5a4c" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M192 252 L200 300 L216 298 L206 254 Z" fill="#3d5a4c" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M148 298 L172 300 L171 309 L147 307 Z M198 296 L220 294 L221 303 L199 305 Z" fill="#1b1b1b"/>
+  <!-- torso, coat flapping -->
+  <path d="M142 186 L216 184 L226 256 L136 256 Z" fill="#6fb58f" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M216 196 Q244 200 252 216 L226 220" fill="#5a9a7c" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- thumbs-up arm -->
+  <path d="M216 194 Q252 190 268 172" fill="none" stroke="#6fb58f" stroke-width="15" stroke-linecap="round"/>
+  <path d="M216 194 Q252 190 268 172" fill="none" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <g transform="translate(258 148)">
+    <path d="M6 22 L6 10 Q6 6 10 6 L12 6 L14 -4 Q14 -8 18 -8 Q22 -8 22 -3 L21 6 L30 6 Q34 6 34 10 L32 20 Q31 24 27 24 L10 24 Q6 24 6 22 Z" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3.5" stroke-linejoin="round"/>
+  </g>
+  <!-- other arm planted on hip -->
+  <path d="M144 194 Q124 210 130 232" fill="none" stroke="#6fb58f" stroke-width="15" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="180" cy="142" r="37" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M144 136 Q140 98 180 96 Q220 98 216 136 Q202 114 180 113 Q158 114 144 136 Z" fill="#4a6a58" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- sprout on head -->
+  <path d="M180 96 Q180 84 180 78" fill="none" stroke="#4e9b7a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 82 Q168 74 160 78 Q168 88 180 84 Z M180 82 Q192 72 202 76 Q194 88 180 84 Z" fill="#6fb58f" stroke="#1b1b1b" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- big bright smile + confident eyes -->
+  <path d="M158 138 L172 134 M188 134 L202 138" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M162 156 Q180 170 198 154" fill="none" stroke="#1b1b1b" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- rosy cheeks -->
+  <circle cx="150" cy="152" r="6" fill="#e08ba4" opacity=".6"/>
+  <circle cx="210" cy="152" r="6" fill="#e08ba4" opacity=".6"/>
+</svg>
