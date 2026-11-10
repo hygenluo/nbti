@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#f5d5ce"/>
+  <ellipse cx="180" cy="310" rx="95" ry="12" fill="#1b1b1b" opacity=".08"/>
+  <!-- speed lines -->
+  <path d="M24 130 L92 130 M14 168 L82 168 M28 206 L96 206" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  <!-- flying papers -->
+  <rect x="96" y="86" width="34" height="24" rx="4" transform="rotate(-18 113 98)" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <rect x="64" y="130" width="30" height="22" rx="4" transform="rotate(12 79 141)" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <rect x="120" y="52" width="30" height="22" rx="4" transform="rotate(24 135 63)" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <g transform="rotate(-10 190 210)">
+    <!-- rocket pack -->
+    <rect x="96" y="168" width="44" height="66" rx="14" fill="#8a8f99" stroke="#1b1b1b" stroke-width="4"/>
+    <path d="M100 236 L92 272 L110 254 L120 280 L132 250 L140 270 L138 238 Z" fill="#ffc531" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="118" cy="196" r="9" fill="#e05b4b" stroke="#1b1b1b" stroke-width="3.5"/>
+    <!-- legs running -->
+    <path d="M176 254 L152 298 L168 304 L188 262 Z" fill="#40404a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M206 252 L224 292 L210 298 L196 262 Z" fill="#40404a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M146 296 L172 300 L170 310 L144 306 Z M206 290 L230 286 L232 296 L208 300 Z" fill="#1b1b1b"/>
+    <!-- body leaning forward -->
+    <path d="M150 176 L218 168 L230 254 L156 262 Z" fill="#e05b4b" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+    <!-- arm forward clutching papers -->
+    <path d="M216 186 Q252 184 266 168" fill="none" stroke="#1b1b1b" stroke-width="13" stroke-linecap="round"/>
+    <rect x="258" y="136" width="36" height="26" rx="4" transform="rotate(-14 276 149)" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+    <path d="M264 146 L288 142 M265 152 L287 148" stroke="#1b1b1b" stroke-width="2" opacity=".5"/>
+    <!-- head -->
+    <circle cx="204" cy="128" r="36" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4"/>
+    <path d="M169 122 Q168 84 206 82 Q240 86 239 120 Q226 100 204 99 Q182 100 169 122 Z" fill="#3d3d45" stroke="#1b1b1b" stroke-width="4"/>
+    <!-- gritted teeth + determined eyes -->
+    <path d="M186 128 L196 124 M220 128 L230 124" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M194 144 L222 142" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M198 142 L198 148 M208 142 L208 147 M218 141 L218 146" stroke="#1b1b1b" stroke-width="2.5"/>
+  </g>
+</svg>

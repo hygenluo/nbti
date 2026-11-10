@@ -1,0 +1,16 @@
+{
+  "name": "nbti-test",
+  "version": "0.1.0",
+  "description": "NBTI 玩梗人格测试网站",
+  "type": "module",
+  "engines": {
+    "node": ">=23.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

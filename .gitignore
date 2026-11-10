@@ -1,0 +1,4 @@
+node_modules/
+nbti.db
+*.png
+.playwright-mcp/

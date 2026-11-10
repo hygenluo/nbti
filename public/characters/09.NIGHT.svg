@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect width="344" height="344" x="8" y="8" rx="36" fill="#d4dce8"/>
+  <!-- moon & stars -->
+  <path d="M72 66 Q60 88 78 104 Q62 102 54 88 Q48 70 60 58 Q68 50 72 66 Z" fill="#e8d89a" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M118 52 L122 62 L132 66 L122 70 L118 80 L114 70 L104 66 L114 62 Z" fill="#fff" opacity=".8"/>
+  <path d="M300 44 L303 52 L311 55 L303 58 L300 66 L297 58 L289 55 L297 52 Z" fill="#fff" opacity=".7"/>
+  <circle cx="270" cy="92" r="4" fill="#fff" opacity=".6"/>
+  <!-- desk -->
+  <rect x="52" y="252" width="256" height="16" rx="6" fill="#8a6a4a" stroke="#1b1b1b" stroke-width="4"/>
+  <rect x="72" y="268" width="14" height="60" fill="#8a6a4a" stroke="#1b1b1b" stroke-width="4"/>
+  <rect x="274" y="268" width="14" height="60" fill="#8a6a4a" stroke="#1b1b1b" stroke-width="4"/>
+  <!-- lamp -->
+  <path d="M86 252 L86 196 Q88 176 108 172" fill="none" stroke="#1b1b1b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M96 168 L128 162 L134 184 L102 190 Z" fill="#5b7ba8" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M112 194 L108 212 M124 190 L124 208 M136 186 L140 204" stroke="#e8d89a" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  <rect x="76" y="246" width="22" height="10" rx="4" fill="#5b7ba8" stroke="#1b1b1b" stroke-width="3.5"/>
+  <!-- notebook on desk -->
+  <rect x="150" y="238" width="74" height="16" rx="4" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <path d="M158 244 L214 244 M158 249 L208 249" stroke="#1b1b1b" stroke-width="1.8" opacity=".4"/>
+  <!-- coffee cups -->
+  <path d="M242 224 L262 224 L260 246 L244 246 Z" fill="#fff" stroke="#1b1b1b" stroke-width="3.5"/>
+  <path d="M276 230 L294 230 L292 250 L278 250 Z" fill="#e8e0d0" stroke="#1b1b1b" stroke-width="3.5" transform="rotate(8 285 240)"/>
+  <!-- person writing behind desk -->
+  <path d="M136 210 Q180 192 224 210 L228 252 L132 252 Z" fill="#5b7ba8" stroke="#1b1b1b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- arm writing -->
+  <path d="M206 220 Q220 234 208 244" fill="none" stroke="#5b7ba8" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="206" cy="244" r="7" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="3"/>
+  <path d="M206 244 L214 232" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <!-- head tilted down, tired eyes -->
+  <circle cx="180" cy="168" r="36" fill="#f2d8c4" stroke="#1b1b1b" stroke-width="4" transform="rotate(6 180 168)"/>
+  <path d="M145 162 Q142 124 180 122 Q218 124 215 162 Q202 140 180 139 Q158 140 145 162 Z" fill="#33404f" stroke="#1b1b1b" stroke-width="4"/>
+  <path d="M160 170 L172 172 M190 172 L202 170" stroke="#1b1b1b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M162 180 L170 180 M192 180 L200 180" stroke="#1b1b1b" stroke-width="3" opacity=".5" stroke-linecap="round"/>
+  <path d="M172 192 Q180 188 188 192" fill="none" stroke="#1b1b1b" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- thought scribble above head -->
+  <path d="M232 130 Q244 120 252 128 Q258 136 250 142 Q242 146 238 138" fill="none" stroke="#1b1b1b" stroke-width="3.5" stroke-linecap="round" opacity=".6"/>
+</svg>
