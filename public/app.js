@@ -4,6 +4,16 @@ import { computeScores, matchResult, topDims, ALL_DIMS } from './data/scoring.js
 const $ = (s) => document.querySelector(s);
 const LAST = QUESTIONS.length - 1;
 
+// 数据源：本地开发走 Express /api，静态部署时直连 Supabase REST
+const SB = window.NBTI_CONFIG || {};
+const IS_LOCAL = ['localhost', '127.0.0.1'].includes(location.hostname);
+const USE_SB = !IS_LOCAL && !!(SB.SUPABASE_URL && SB.SUPABASE_KEY);
+const sbHeaders = {
+  'Content-Type': 'application/json',
+  apikey: SB.SUPABASE_KEY,
+  Authorization: `Bearer ${SB.SUPABASE_KEY}`,
+};
+
 const state = {
   index: 0,
   answers: [],
@@ -124,11 +134,24 @@ function renderResult() {
 
 async function saveResult() {
   try {
-    const res = await fetch('/api/submit', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ answers: state.answers }),
-    });
+    const res = USE_SB
+      ? await fetch(`${SB.SUPABASE_URL}/rest/v1/test_results`, {
+          method: 'POST',
+          headers: { ...sbHeaders, Prefer: 'return=minimal' },
+          body: JSON.stringify({
+            label: state.result.label,
+            label_cn: state.result.name,
+            title: state.result.tagline,
+            keywords: state.result.keywords,
+            scores: state.result.scores,
+            answers: state.answers,
+          }),
+        })
+      : await fetch('/api/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ answers: state.answers }),
+        });
     if (!res.ok) throw new Error('bad status');
     toast('测试结果已保存');
   } catch {
@@ -141,9 +164,26 @@ async function showStats() {
   show('stats');
   $('#stats-list').innerHTML = '<div class="stats-empty">加载中……</div>';
   try {
-    const res = await fetch('/api/stats');
-    const data = await res.json();
-    if (!data.ok) throw new Error('bad');
+    let data;
+    if (USE_SB) {
+      const res = await fetch(`${SB.SUPABASE_URL}/rest/v1/test_results_stats?select=label,name,count`, {
+        headers: sbHeaders,
+      });
+      if (!res.ok) throw new Error('bad');
+      const rows = await res.json();
+      const total = rows.reduce((s, r) => s + r.count, 0);
+      data = {
+        total,
+        byLabel: rows.map((r) => ({
+          ...r,
+          pct: total ? Math.round((r.count * 1000) / total) / 10 : 0,
+        })),
+      };
+    } else {
+      const res = await fetch('/api/stats');
+      data = await res.json();
+      if (!data.ok) throw new Error('bad');
+    }
     $('#stats-total').textContent = `已有 ${data.total} 人完成测试`;
     if (!data.byLabel.length) {
       $('#stats-list').innerHTML = '<div class="stats-empty">还没有测试记录，来当第一个吧</div>';
