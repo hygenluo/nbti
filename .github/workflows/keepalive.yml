@@ -1,0 +1,19 @@
+name: Supabase keepalive
+
+# Supabase 免费版约 7 天无活动会暂停项目，每 3 天 ping 一次统计视图保活
+# publishable key 本身就是可公开的（已在 config.js 中随前端发布），直接写在这里
+on:
+  schedule:
+    - cron: '17 2 */3 * *'   # 每 3 天 UTC 02:17
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping stats view
+        run: |
+          curl -fsS --max-time 30 \
+            "https://vzwmeahekiwuemfxnozy.supabase.co/rest/v1/test_results_stats?select=label&limit=1" \
+            -H "apikey: sb_publishable_cPvvQWTiQktNjyduR3fmow_iGaixUbq" \
+            -H "Authorization: Bearer sb_publishable_cPvvQWTiQktNjyduR3fmow_iGaixUbq"
