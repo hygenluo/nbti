@@ -14,14 +14,17 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  /* 背景放在根元素上，保证铺满整个可视画布（body 盒子尺寸异常时也不受影响） */
+  background:
+    radial-gradient(circle at 1px 1px, rgba(27,27,27,.10) 1.2px, transparent 0) 0 0 / 26px 26px,
+    var(--paper);
+}
 
 body {
   font-family: var(--font);
   color: var(--ink);
-  background:
-    radial-gradient(circle at 1px 1px, rgba(27,27,27,.10) 1.2px, transparent 0) 0 0 / 26px 26px,
-    var(--paper);
   min-height: 100vh;
 }
 
